@@ -6,4 +6,5 @@ public class AppUserDto
     public string UserName { get; set; } = null!;
     public string Email { get; set; } = null!;
     public Guid? AvatarFileId { get; set; }
+    public string AvatarFileUrl { get; set; }
 }
