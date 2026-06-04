@@ -3,6 +3,7 @@ namespace AuraEcho.Api.Models.V1.Plugin;
 public class ListPluginItem
 {
     public Guid Id { get; set; }
+    public PluginType Type { get; set; }
     public string Name { get; set; }
     public string Summary { get; set; }
     public string Description { get; set; }

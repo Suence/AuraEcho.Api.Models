@@ -4,6 +4,7 @@ public class ListAllPluginsResponseItem
 {
     public Guid Id { get; set; }
     public string Name { get; set; }
+    public PluginType Type { get; set; }
     public bool IsActive { get; set; }
     public string Description { get; set; }
     public string Summary { get; set; }
