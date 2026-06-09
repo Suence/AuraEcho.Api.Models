@@ -22,8 +22,8 @@ public enum ResultStatus
     [Description("请求频繁")]
     RequestTooFrequent = 5,
 
-    [Description("支付失败")]
-    PaymentFailed = 6,
+    [Description("订单创建失败")]
+    OrderCreationFailed = 6,
 
     [Description("订阅状态冲突")]
     LicenseConflict = 7,
