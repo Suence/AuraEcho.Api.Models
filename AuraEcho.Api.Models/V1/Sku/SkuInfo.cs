@@ -14,4 +14,5 @@ public class SkuInfo
     public decimal SalePrice { get; set; }
     public decimal OriginalPrice { get; set; }
     public bool IsActive { get; set; }
+    public int Ordianl { get; set; }
 }
